@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo Mvc</title>
+    <link href="./MVC.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="title">
+        <h1>todos</h1>
+      </div>
+
+      <div class="box">
+        <div class="box1">
+          <i
+            ><input
+              type="text"
+              id="input"
+              placeholder="            What needs to be done ?"
+          /></i>
+        </div>
+
+        <ul id="ul"></ul>
+
+        <div class="tabs" id="tab">
+          <div class="count">
+            <p id="c">0 Items Left</p>
+          </div>
+          <div class="middle">
+            <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+          </div>
+
+          <div class="last">
+            <h4 id="clear">Clear Completed</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./model.js"></script>
+    <script src="./controller.js"></script>
+  </body>
+</html>

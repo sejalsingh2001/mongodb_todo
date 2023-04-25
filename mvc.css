@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-content {
+    background-color: #f4f5f4;
+    height: 800px;
+  }
+  .title {
+    font-weight: 200;
+    text-align: center;
+    font-size: 70px;
+  }
+  h1 {
+    color: #ead9d7;
+    font-weight: normal;
+  }
+  
+  .box1 {
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 60px;
+    border: none;
+  }
+  
+  #input {
+    background-color: white;
+    height: 60px;
+    width: 480px;
+    border: white;
+    box-shadow: #dedede;
+    padding-left: 20px;
+    font-size: 22px;
+  }
+  button {
+    cursor: pointer;
+  }
+  ::placeholder {
+    font-style: italic;
+    color: #e6e7e7;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .tabs {
+    display: flex;
+    align-content: center;
+    /* margin-left:500px; */
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    margin-top: 0px;
+  }
+  .middle {
+    display: flex;
+    justify-content: space-around;
+  
+    padding: 4px;
+  }
+  
+  button {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    margin-right: 20px;
+    border: none;
+    padding: 5px;
+  }
+  .last h4 {
+    font-weight: 200;
+  }
+  .listy {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+  }
+  ul {
+    align-content: center;
+    list-style-type: none;
+  }
+  li {
+    height: 60px;
+  }
+  .checkbox {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 10px;
+  }
+  .item-text {
+    margin-top: 10px;
+    margin-right: 350px;
+  }
+  .fa-solid {
+    margin-top: 0px;
+  }
+  .fa-xmark {
+    margin-top: 12px;
+    margin-right: 30px;
+    font-size: 25px;
+    color: #cd9d9d;
+    cursor: pointer;
+  }
+  .last h4 {
+    color: #e9c2c2;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  #c {
+    margin-top: 8px;
+  }
+  
